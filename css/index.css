@@ -1,0 +1,151 @@
+/* header nav */
+.navigation {
+    text-align: center;
+    color: #FDFDFC;
+
+}
+.inline-block{
+    font-size: 20px;
+    padding-top: 40px;
+    padding-left: 200px;
+}
+.navigation h1{
+    font-family: 'Nunito Sans', sans-serif;
+    text-align: center;
+    padding-top: 100px;
+}
+.navigation p{
+    font-size: 30px;
+    font-family: 'Nunito Sans', sans-serif;
+    text-align: left;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+.navigation button{
+    background-color:#FDFDFC;
+    color: black;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    border-radius: 8px;
+}
+.logo{ 
+    background-image: url("..Images\Hcclogo.png");
+    float: left;
+}
+.logo img{
+    width: 75px;
+}
+header{
+    background-image: linear-gradient(to bottom,rgba(18, 18, 18, 1), rgba(0, 0, 0, 0)), url("../images/Hero.png");
+    height: 863px;
+    background-repeat: no-repeat;
+    padding: 10px 20px;
+    width: 1440px;
+}
+.inline-block ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.inline-block li{
+    float: left;
+    padding: 10px;
+}
+li:hover{
+    text-decoration-line: underline;
+}
+.navigation h1{
+    text-align: center;
+    font-size: 75px;
+    font-family: 'Noto Serif', serif;
+}
+/* body */
+.batPaddle, .happyHour, .rock{
+    padding:10px;
+    margin: 10px;
+    color: white;
+}
+.s1{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.green{
+    background-color: #B0E2B6;
+    display: grid;
+    align-items: center;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "batPaddle"
+    "happyHour"
+    "rock";
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+.batPaddle{
+    grid-area: batPaddle;
+    background-image: url("../images/BatPaddle.png");
+    background-repeat: no-repeat;
+    height: 500px;
+    padding: 100px;
+}
+.date{
+    float: left;
+}
+.happyHour{
+    grid-area: happyHour;
+    background-image: url("../images/HappyHour.png");
+    background-repeat: no-repeat;
+    height: 500px;
+    padding: 100px;
+}
+.rock{
+    grid-area: rock;
+    background-image: url("../images/rockClimmbing.png");
+    background-repeat: no-repeat;
+    height: 500px;
+    padding: 100px;
+}
+/* footer */
+.fa-twitter {
+    color: black;
+  }
+.fa-facebook {
+    color: black;
+  }
+.fa-linkedin {
+    color: black;
+  }
+.fa-youtube {
+    color: black;
+  }
+.fa-instagram {
+    color: black;
+  }
+.fa {
+    padding: none;
+    font-size: 20px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    float: right;
+  }
+.links ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    font-family: 'Nunito Sans', sans-serif;
+    float: left;
+    padding-top: 200px;
+    padding-left: 100px;
+    padding-bottom: 50px;
+  }
+.logos{
+    float: right;
+}
