@@ -19,7 +19,7 @@
     font-size: 30px;
     font-family: 'Nunito Sans', sans-serif;
     text-align: left;
-     padding-left: 700px;
+    justify-self: center;
     
 }
 .navigation button{
@@ -175,26 +175,38 @@ p{
     grid-column: 2;
 }
 
+hr{
+    width: 80%;
+    height: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#0A0A0A;
+    border: 0 none;
+    margin-top: 100px;
+    margin-bottom:1px;
+}
 /* footer */
 .footer{
     display: flex;
-
+    flex-direction: row;
+    padding-top: 200px;
+}
+#links {
+    flex: 20;
 }
 #links ul{
     list-style: none;
     margin: 0;
     padding: 0;
-    font-size: 15px;
+    font-size: 20px;
     font-family: 'Nunito Sans', sans-serif;
-    float: left;
-    padding-top: 200px;
     padding-left: 100px;
-    padding-bottom: 50px;
   }
 #logos{
-    float: right;
+    padding-right: 50px;
     padding-bottom: 50px;
-}  
+    flex: 4;
+} 
 
 @media only screen and (max-width: 600){
    .green{
@@ -205,4 +217,9 @@ p{
     "happyHour"
     "rock";
    };
+   .navigation p{
+    font-size: 30px;
+    font-family: 'Nunito Sans', sans-serif;
+    text-align: left;
+    };
 }
