@@ -19,8 +19,8 @@
     font-size: 30px;
     font-family: 'Nunito Sans', sans-serif;
     text-align: left;
-    justify-self: center;
-    
+    margin: auto;
+    padding-bottom: 50px;
 }
 .navigation button{
     background-color:#FDFDFC;
@@ -208,18 +208,31 @@ hr{
     flex: 4;
 } 
 
-@media only screen and (max-width: 600){
-   .green{
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-columns: 1fr;
-    grid-template-areas: 
-    "batPaddle"
-    "happyHour"
-    "rock";
-   };
-   .navigation p{
-    font-size: 30px;
-    font-family: 'Nunito Sans', sans-serif;
-    text-align: left;
-    };
+@media (max-width: 600px) {
+    .pic3, .pic4{
+        grid-column: 1;
+        grid-row: 2;
+    }
+}
+@media (max-width: 600px) {
+    .pic1, .pic2{
+        grid-row: 1;
+    }
+}
+@media (max-width: 600px) {
+    .button1{
+        grid-row: 2;
+    }
+}
+@media (max-width: 600px) {
+    .pic3, .pic4{
+        grid-column: 1;
+        grid-row: 3;
+    }
+}
+@media (max-width: 600px) {
+    .button2{
+        grid-column: 1;
+        grid-row: 4;
+    }
 }
